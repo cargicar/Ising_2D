@@ -41,7 +41,7 @@ include 'parameters0.inc'
 
    !magnetization=abs(float(sum(ra))/N**2)
    !print *, 'final state'
-   write(3,*) ra
+   write(2,*) ra
    !print *,  magnetization
 
 end program ising_2D
